@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rgrigorii-t16/Desktop/misc/simple_funcs2/queue.h
+queue
+-
+
+/home/rgrigorii-t16/Desktop/misc/simple_funcs2/tests.cpp
+gtest/gtest.h
+-
+queue
+-
+queue.h
+/home/rgrigorii-t16/Desktop/misc/simple_funcs2/queue.h
+
